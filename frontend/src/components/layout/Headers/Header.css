@@ -1,0 +1,137 @@
+.navContainer{
+  width: 100vw;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin:0 10px 0 10px;
+}
+
+.nav img {
+  height: 60px; /* Adjust as needed */
+  margin-bottom: 10px;
+  margin-left: 50px; /* Add margin bottom for spacing */
+}
+
+.nav span {
+  font-size: 2.3rem;
+  font-weight: 620;
+  /* Adjust as needed */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+  text-decoration: none;
+}
+h5 {
+  margin: 0; /* Remove default margin */
+}
+
+.dashboard {
+
+  color: blue;
+  text-decoration: none; 
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.dashboard:hover {
+
+  color: darkblue;
+}
+
+.Logout {
+ 
+  color: red; 
+  text-decoration: none; 
+}
+
+.Logout:hover {
+
+  color: darkred;
+}
+
+
+.menu ul li {
+  display:flex; 
+  font-size: 1.3rem;
+  color: #1a75c9;
+  cursor: pointer;
+  font-weight:500;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.menu ul li:last-child {
+  margin-bottom: 0; /* Remove bottom margin for last item */
+}
+
+.menu ul li:hover {
+  color: #007bff; /* Change to your desired hover color */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add margin top for spacing */
+}
+.icons .login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons .login img{
+  height: 40px;
+  margin-right: 10px;
+}
+.cart-logo img {
+  height: 40px; /* Adjust as needed */
+  margin-right: 60px;
+}
+
+.login button {
+  padding: 10px 50px;
+  background-color: #e7ebf0; /* Change to your desired button color */
+  color: #000000;
+  border: none;
+  border: 1px solid #000000;
+  border-radius:20px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+  background-color: #f10a07; /* Change to your desired button hover color */
+}
+
+/* Media Query for Mobile */
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-direction: row; /* Switch back to row layout for larger screens */
+    justify-content: space-between; /* Add spacing between elements */
+    align-items: center;
+  }
+
+  .menu ul {
+    display: flex;
+  }
+
+  .menu ul li {
+    display: inline-block;
+    margin-bottom: 0; /* Reset margin for inline-block elements */
+    margin-right: 20px;
+  }
+
+  .icons {
+    margin-top: 0; /* Reset margin for icons container */
+  }
+}

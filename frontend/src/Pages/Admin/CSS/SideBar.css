@@ -1,0 +1,35 @@
+
+.side-bar-container {
+  width: 300px; 
+  padding-top: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+}
+
+.add-product,
+.list-product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  cursor: pointer; 
+}
+
+.add-product img,
+.list-product img {
+  width: 24px; /* Adjust icon size as needed */
+  margin-right: 10px;
+}
+
+.add-product:hover,
+.list-product:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.add-product p,
+.list-product p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}

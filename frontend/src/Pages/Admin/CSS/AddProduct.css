@@ -1,0 +1,76 @@
+.add-product-outer-container{
+  max-width: 500px;
+  display: flex;
+
+
+}
+.add-product-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.add-product-page {
+  display: flex;
+}
+
+.add-product-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.add-product-container .left img{
+  max-height: 180px;
+  margin: 0 auto;
+}
+
+/* Style for paragraphs */
+.add-product-container p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Style for input fields */
+.add-product-container input[type="text"],
+.add-product-container select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+}
+.add-product-container input[type="text"],
+.add-product-container input[type="number"],
+.add-product-container select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+}
+
+/* Style for the file input */
+.add-product-container input[type="file"] {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Style for the button */
+.add-product-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product-container button:hover {
+  background-color: #0056b3;
+}

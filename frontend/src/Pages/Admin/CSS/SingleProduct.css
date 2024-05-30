@@ -1,0 +1,57 @@
+
+.single-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.single-product-left img {
+  width: 100%;
+  margin-left: 40px;
+  max-width: 300px;
+  height: auto;
+}
+
+.single-product-right {
+  flex: 1;
+}
+
+.single-product-right input[type="text"],
+.single-product-right select {
+  width: 30%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.single-product-right input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.single-product-right button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.single-product-right button:hover {
+  background-color: #45a049;
+}
+
+.single-product-right button:last-child {
+  background-color: #f44336;
+}
+
+.single-product-right button:last-child:hover {
+  background-color: #d32f2f;
+}
+

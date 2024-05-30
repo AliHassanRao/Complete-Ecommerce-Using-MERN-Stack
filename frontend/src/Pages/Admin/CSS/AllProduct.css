@@ -1,0 +1,30 @@
+.cart {
+  width: calc(20% - 20px);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.cart:hover {
+  transform: scale(1.05);
+}
+
+.cart img {
+  max-width: 100%;
+  min-width: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.cart p {
+  margin-top: 10px;
+}
+
+.popular-price {
+  display: flex;
+  justify-content: space-between;
+}

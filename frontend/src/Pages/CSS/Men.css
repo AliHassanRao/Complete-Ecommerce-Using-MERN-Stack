@@ -1,0 +1,88 @@
+.men-container {
+  max-width: 1500px;
+  margin-bottom: 25px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.men-banner img {
+  width: 100%;
+  display: block;
+}
+
+.men-Showing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.men-Showing button{
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.men-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+
+
+.papular-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.papular-price h3 {
+  margin: 0;
+}
+
+.men-button {
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+}
+.men-button button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .men-menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .men-menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

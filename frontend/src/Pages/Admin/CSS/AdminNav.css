@@ -1,0 +1,34 @@
+.admin-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #a72525;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.admin-logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.admin-name {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.admin-icon img {
+  width: 40px;
+  height: auto;
+  margin-right: 50px;
+}
